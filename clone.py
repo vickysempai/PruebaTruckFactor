@@ -6,7 +6,7 @@ def getRepo(repo_url, login_object):
   Clones the passed repo to my staging dir
   '''
 
-  path_append = r"C:/TEC/VII Semestre/Proyecto/PythonGitData" # Can set this as an arg 
+  path_append = r"C:/TEC/VII Semestre/Proyecto/PythonGitData/Original" # Can set this as an arg 
   os.chdir(path_append)
 
   repo_moddedURL = 'https://' + repo_url[8:]
